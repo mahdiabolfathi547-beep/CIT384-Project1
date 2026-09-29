@@ -34,7 +34,72 @@
         </nav>
 
     </header>
-</body>
 
+    <main>
+        <section class="resources-section">
+            <h2>Helpful Culinary Websites</h2>
+
+            <p>
+                These resources can help people learn about cooking,
+                recipes, and food safety.<br>
+                Good cooking begins with fresh ingredients and careful preparation.
+            </p>
+
+            <ul class="resource-list">
+                <li>
+                    <!--
+                        The ping attribute belongs inside the a element.
+                        It is not a separate HTML element called <ping>.
+                        This example uses resources.html as the ping URL.
+                    -->
+                    <a
+                        href="https://www.foodsafety.gov/"
+                        ping="resources.html"
+                        class="resource-link"
+                        tabindex="0">
+                        Food Safety Information
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.myplate.gov/"
+                        class="resource-link"
+                        tabindex="0">
+                        MyPlate Nutrition Information
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.allrecipes.com/"
+                        class="resource-link"
+                        tabindex="0">
+                        Recipe Ideas
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="food-information">
+            <h2>Food and Nutrition</h2>
+
+            <p>
+                Water is represented by the chemical formula H<sub>2</sub>O.
+                Learning basic information about food can help improve cooking
+                and meal preparation.
+            </p>
+
+            <img
+                src="gallery-images-ast/prepared-chai.jpeg"
+                alt="A prepared cup of chai"
+                class="resource-image">
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Mahdi Abolfathi</p>
+    </footer>
+</body>
 
 </html>
